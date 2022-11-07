@@ -4,7 +4,7 @@ import downChart from "../../images/charts/down.svg";
 
 export default function CoinRow({ image, coinName, coinPrice, coinUpTrend }) {
   return (
-    <div className="grid grid-cols-3 bg-secondary mb-2 py-2 border-b border-lightgray  ">
+    <div className="grid grid-cols-3 bg-secondary mb-2 py-2 border-b border-lightgray last:border-none  ">
       <div className="items-center flex">
         <img
           src={image}

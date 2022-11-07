@@ -84,7 +84,7 @@ const recentlyCoins = [
 export default function CryptocurrencySection() {
   return (
     <section className="mt-10 bg-red">
-      <div className="container mx-auto rounded-3xl bg-amber-300 py-8 px-4 shadow">
+      <div className="container mx-auto rounded-3xl bg-amber-300 py-8 px-4 shadow-lg">
         <div className="grid grid-cols-3 bg-emerald-300 ">
           <div className=" bg-pink-400 px-4">
             <ListCoin title="🔥 Trending" data={trendingCoins} />
