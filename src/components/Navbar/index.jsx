@@ -1,4 +1,5 @@
 import React from "react";
+import { BsChevronDown } from "react-icons/bs";
 import logo from "../../images/logo.svg";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
@@ -27,6 +28,7 @@ export default function Navbar() {
             </a>
             <a href="/" className="mx-4 hover:text-primary">
               Product
+              <BsChevronDown className="inline ml-2" />
             </a>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { BsChevronDown } from "react-icons/bs";
 import globoCrypto from "../../images/illustrations/globe.png";
 import PrimaryButton from "../buttons/PrimaryButton";
 import SecondaryButton from "../buttons/SecondaryButton";
@@ -29,7 +30,10 @@ export default function HeroSection() {
 
             <div className="flex">
               <PrimaryButton className="mr-4">Get Started</PrimaryButton>
-              <SecondaryButton className="mr-4">Download App</SecondaryButton>
+              <SecondaryButton className="mr-4">
+                Download App
+                <BsChevronDown className="inline ml-2" />
+              </SecondaryButton>
             </div>
           </div>
         </div>
