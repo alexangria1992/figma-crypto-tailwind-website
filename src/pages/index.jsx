@@ -9,6 +9,7 @@ import TradingToolsSections from "../components/sections/TradingToolsSections";
 import SecuritySection from "../components/sections/SecuritySection";
 import StepSection from "../components/sections/StepSection";
 import FaqSection from "../components/sections/FAQSection";
+import BackToTopSection from "../components/sections/BackToTopSection";
 
 export default function index() {
   return (
@@ -22,6 +23,7 @@ export default function index() {
       <SecuritySection />
       <StepSection />
       <FaqSection />
+      <BackToTopSection />
     </Layout>
   );
 }
