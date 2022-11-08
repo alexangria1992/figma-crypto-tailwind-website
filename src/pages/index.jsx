@@ -8,6 +8,7 @@ import PartnerSection from "../components/sections/PartnerSection";
 import TradingToolsSections from "../components/sections/TradingToolsSections";
 import SecuritySection from "../components/sections/SecuritySection";
 import StepSection from "../components/sections/StepSection";
+import FaqSection from "../components/sections/FAQSection";
 
 export default function index() {
   return (
@@ -20,6 +21,7 @@ export default function index() {
       <TradingToolsSections />
       <SecuritySection />
       <StepSection />
+      <FaqSection />
     </Layout>
   );
 }

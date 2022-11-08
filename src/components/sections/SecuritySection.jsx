@@ -9,10 +9,11 @@ export default function SecuritySection() {
       <div className="grid grid-cols-2  ">
         <img src={banks} alt="" />
         <div className="flex justify-center">
-          <div className="max-w-lg">
+          <div className="max-w-xl">
             <h2 className="font-bold text-4xl mb-6 leading-normal">
               Industry-leading security from day one
             </h2>
+            <p></p>
             <ul className="my-6">
               <li className="mb-6">
                 <span>
