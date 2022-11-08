@@ -12,8 +12,8 @@ export default function HeroSection() {
           <div>
             <p className="text-primary">SIGN UP TODAY</p>
             <h1 className="text-5xl font-bold leading-normal">The World's</h1>
-            <h1 className="text-5xl font-bold leading-normal">
-              Fastest Growin
+            <h1 className="text-5xl font-bold leading-normal text-blue-gradient">
+              Fastest Growing
             </h1>
             <h1 className="text-5xl font-bold leading-normal">
               Crypto Web App
